@@ -1,0 +1,45 @@
+#hero{
+  /*max-width: 100%;*/
+  min-height: 600px;
+  /*background-color: #888;*/
+}
+ul > li> img{
+  height: 600px;
+  width: auto;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li{
+  /*background-color: red;*/
+  width: 100%;
+  display: none;
+}
+.arrows{
+  position: absolute;
+  top: 300px;
+  z-index: 98;
+  width: 400px;
+}
+#left{
+  position: absolute;
+  z-index: 99;
+  left: 10px;
+}
+#right{
+  position: absolute;
+  right: 10px;
+  z-index: 99;
+
+}
+.arrow{
+  width: 40px;
+  height: 40px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+}
